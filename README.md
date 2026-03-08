@@ -51,7 +51,10 @@ The output will be located in the `dist/` directory.
 
 ## Open Source
 
-This project is open-source under the MIT License. Feel free to download, change themes, and customize it to your liking!
+This project is open-source under the MIT License. Feel free to download and customize it!
+
+- **Themes**: Change colors and layout in `src/App.css`.
+- **Icon**: Replace `build/icon.png` and `src/assets/pomodoro-icon.png` with your own design.
 
 ## License
 
