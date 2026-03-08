@@ -30,7 +30,7 @@
   right: 15px;
   background: none;
   border: none;
-  font-size: min(5vmin, 16px);
+  font-size: min(8vmin, 24px);
   font-weight: bold;
   color: #999;
   cursor: pointer;
@@ -43,12 +43,33 @@
   color: #333;
 }
 
+.mute-btn {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  background: none;
+  border: none;
+  color: #999;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+  transition: color 0.2s, transform 0.1s;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mute-btn:hover {
+  color: #333;
+  transform: scale(1.1);
+}
+
 .title {
   font-size: min(6vmin, 20px);
   font-weight: 500;
   color: #333;
-  margin-top: min(4vmin, 15px);
-  margin-bottom: min(1vmin, 5px);
+  margin-top: min(8vmin, 30px);
+  margin-bottom: min(4vmin, 15px);
   cursor: pointer;
   -webkit-app-region: no-drag;
 }
@@ -61,12 +82,12 @@
   font-size: min(6vmin, 20px);
   font-weight: 500;
   color: #333;
-  margin-top: min(4vmin, 15px);
-  margin-bottom: min(1vmin, 5px);
+  margin-top: min(8vmin, 30px);
+  margin-bottom: min(4vmin, 15px);
   border: none;
   background: transparent;
   text-align: center;
-  width: min(40vmin, 150px);
+  width: min(50vmin, 200px);
   -webkit-app-region: no-drag;
   outline: none;
   border-bottom: 2px solid #267c5b;
@@ -78,7 +99,7 @@
   color: #222;
   line-height: 1;
   letter-spacing: -2px;
-  margin-bottom: min(4vmin, 15px);
+  margin-bottom: min(8vmin, 30px);
   cursor: pointer;
   -webkit-app-region: no-drag;
   transition: opacity 0.2s;
@@ -94,7 +115,7 @@
   color: #222;
   line-height: 1;
   letter-spacing: -2px;
-  margin-bottom: min(4vmin, 15px);
+  margin-bottom: min(8vmin, 30px);
   border: none;
   background: transparent;
   text-align: center;
@@ -140,8 +161,8 @@
 .play-btn {
   background-color: #e5f0ea;
   border: none;
-  width: min(12vmin, 50px);
-  height: min(12vmin, 50px);
+  width: min(15vmin, 65px);
+  height: min(15vmin, 65px);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -162,14 +183,14 @@
 }
 
 .pause-icon {
-  width: min(3vmin, 12px);
-  height: min(3.5vmin, 14px);
+  width: min(5vmin, 20px);
+  height: min(6vmin, 24px);
   display: flex;
   justify-content: space-between;
 }
 
 .pause-bar {
-  width: min(1vmin, 4px);
+  width: min(1.5vmin, 6px);
   height: 100%;
   background-color: #267c5b;
   border-radius: 2px;
